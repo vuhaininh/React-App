@@ -76,13 +76,15 @@ table > thead > tr > th {
   font-weight: 500 !important;
   vertical-align: middle !important;
   padding-left: 24px !important;
-  cursor: pointer;
 }
 
 table > thead > tr {
   height: 48px !important;
 }
 
+.col {
+  cursor: pointer;
+}
 
 table > tbody > tr {
   height: 72px !important;
