@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*header styling*/
+header {
+  height: 96px;
+  width: 976px;
+  background: #ACB6BF;
+  color: white;
+}
+
+header h3 {
+  padding: 32px 32px 0 32px !important;
+  margin-top: 0 !important;
+}
+
+/*the rest of the page */
+.main {
+  background: #F1F1F1;
+  height: 100%;
+  width: 976px;
+}
+
+#root {
+  margin: 0 32px;
+  padding: 30px 0;
+}
+
+#root h3 {
+  margin: 0 !important;
+  text-align: left;
+  padding: 30px 0;
+  color: #757575;
+}
+
+/*add contact form styling*/
+.add-new {
+  background: white;
+}
+.add-new form {
+  padding-left: 16px;
+}
+
+.add-new form input {
+  margin: 16px 16px 16px 0;
+  height: 40px;
+  display: inline-block;
+  *display: inline;
+  padding-left: 10px;
+}
+
+.add-new form input[type=submit] {
+  border: none;
+  height: 40px;
+  width: 100px;
+  color: #757575;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  background: #F1F1F1;
+}
+
+/*table styling*/
+table {
+  background: white;
+  margin-top: 20px;
+}
+
+table > thead > tr > th {
+  color: #757575 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  font-weight: 500 !important;
+  vertical-align: middle !important;
+  padding-left: 24px !important;
+  cursor: pointer;
+}
+
+table > thead > tr {
+  height: 48px !important;
+}
+
+
+table > tbody > tr {
+  height: 72px !important;
+}
+
+table > tbody > tr > td {
+  color: #505050;
+  font-size: 16px;
+  line-height: 24px !important;
+  font-weight: 400;
+  vertical-align: middle !important;
+  padding-left: 24px !important;
+}
+
+table input {
+  padding-left: 10px;
+}
+
+/*button in table styling*/
+.button-handle {
+  text-align: right;
+}
+
+.button-save {
+  border: none;
+  background: #07f;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.button-cancel {
+  border: none;
+  background: #F1F1F1;
+  color: #07f;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/*icon styling*/
+.action {
+  text-align: right;
+}
+.action .fa {
+  padding: 0 20px;
+}
